@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angularfirst-912fd": {
+      "hosting": {
+        "AngularApp": [
+          "angularfirst-912fd"
+        ]
+      }
+    }
+  }
+}

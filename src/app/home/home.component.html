@@ -1,0 +1,14 @@
+<div style="padding: 13px;">
+  <mat-spinner *ngIf="peoples.length === 0"></mat-spinner>
+
+  <mat-card *ngFor="let people of peoples" style="margin-top:11px;">
+    <mat-card-content>
+      <p>
+        Name: {{people["name"]}}
+      </p>
+      <p>
+        height: {{people["height"]}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
